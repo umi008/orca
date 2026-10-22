@@ -371,9 +371,9 @@ jobs:
             src/shared/ephemeral-vm-runtimes.ts \
             src/shared/ephemeral-vm-recipes.ts \
             src/shared/orca-yaml-hook-types.ts \
-            src/main/ephemeral-vm-runtime-service.ts \
-            src/main/ephemeral-vm-runtime-provisioning-persistence.ts \
-            src/main/ephemeral-vm-failed-start-cleanup.ts; then
+            src/main/ephemeral-vm/runtime-service.ts \
+            src/main/ephemeral-vm/runtime-provisioning-persistence.ts \
+            src/main/ephemeral-vm/failed-start-cleanup.ts; then
             echo "VM runtime persistence is unchanged."
             exit 0
           fi
